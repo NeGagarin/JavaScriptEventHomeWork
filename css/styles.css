@@ -1,0 +1,126 @@
+@keyframes text-color-animation {
+    0% {color: yellow;}
+    12.5% {color: yellowgreen;}
+    25% {color: greenyellow;}
+    37.5% {color:green}
+    50% {color: blue;}
+    62.5% {color: green;}
+    75% {color: greenyellow}
+    87.5%{color: yellowgreen ;}
+    100% {color:yellow ;}
+}
+.animate-text {
+    animation: text-color-animation 20s linear infinite;
+}
+h1 {
+    justify-content: space-around;
+    text-align: center;
+    position:relative;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+
+}
+h2{
+    color: green;
+    justify-content:baseline;
+    text-align: center;
+    position: relative;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+p {
+    color: yellow;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.task {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+form {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#addTitle,#addText {
+
+    position: relative;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    justify-content: space-around;
+}
+button{
+    background: blue;
+    background-image: -webkit-linear-gradient(top, blue, yellow);
+    background-image: -moz-linear-gradient(top, blue, yellow);
+    background-image: -ms-linear-gradient(top, blue, yellow);
+    background-image: -o-linear-gradient(top, blue, yellow);
+    background-image: linear-gradient(to bottom, blue, yellow);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    text-shadow: 3px 3px 3px #000000;
+    -webkit-box-shadow: 3px 3px 5px #000000;
+    -moz-box-shadow: 3px 3px 5px #000000;
+    box-shadow: 3px 3px 5px #000000;
+    font-family: Georgia;
+    color: yellow;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+button:hover {
+    background: black;
+    background-image: -webkit-linear-gradient(top, black, red);
+    background-image: -moz-linear-gradient(top, black, red);
+    background-image: -ms-linear-gradient(top, black, red);
+    background-image: -o-linear-gradient(top, black, red);
+    background-image: linear-gradient(to bottom, black, red);
+    text-decoration: none;
+  }
+button.DeleteToDo {
+    background: black;
+    background-image: -webkit-linear-gradient(top, black, red);
+    background-image: -moz-linear-gradient(top, black, red);
+    background-image: -ms-linear-gradient(top, black, red);
+    background-image: -o-linear-gradient(top, black, red);
+    background-image: linear-gradient(to bottom, black, red);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    text-shadow: 3px 3px 3px #000000;
+    -webkit-box-shadow: 3px 3px 5px #000000;
+    -moz-box-shadow: 3px 3px 5px #000000;
+    box-shadow: 3px 3px 5px #000000;
+    font-family: Georgia;
+    color: yellow;
+    font-size: 10px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+button.DeleteToDo:hover {
+    background: blue;
+    background-image: -webkit-linear-gradient(top, blue, yellow);
+    background-image: -moz-linear-gradient(top, blue, yellow);
+    background-image: -ms-linear-gradient(top, blue, yellow);
+    background-image: -o-linear-gradient(top, blue, yellow);
+    background-image: linear-gradient(to bottom, blue, yellow);
+    text-decoration: none;
+  }
+  
